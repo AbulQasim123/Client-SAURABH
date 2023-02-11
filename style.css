@@ -1,0 +1,70 @@
+#search::placeholder {
+    color: blue;
+    opacity: 0.8;
+}
+/* image on navbar the left side */
+#image #set_image{
+    width: 40px;
+    border-radius: 50%;
+}
+.carousel-inner img {
+    width: 100%;
+    /* height: 100%; */
+  }
+#parent_div{
+    width: 100%;
+    text-transform: capitalize;
+    text-align: justify;
+    border: 1px solid gray;
+}
+/* content area scrollable style */
+#content_area{
+    height: 70vh; 
+    overflow-y: scroll;
+    /* overflow-x: scroll; */
+}
+/* Side bar scroll style */
+.scroll {
+    max-height: 400px;
+    overflow-y: scroll;
+}
+/* Side bar style */
+#v-pills-tab a{
+    font-weight: bold;
+}
+/* Side bar style */
+#right_border{
+    border-right: 1px solid gray;
+}
+
+#footer_bar{
+    color: white;
+    float: right;
+}
+
+.success_message{
+    background: #dec1d8;
+    color: green;
+    padding: 10px;
+    margin: 10px;
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.error_message{
+    background: #efdcdd;
+    color: red;
+    padding: 10px;
+    margin: 10px;
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+/* teaching subject for Textarea */
+#share_sub{
+    width: 400px;
+    height: auto;
+}
